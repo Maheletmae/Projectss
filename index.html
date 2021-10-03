@@ -13,62 +13,55 @@
     <link rel="stylesheet" href="src/styles.css" />
     <title>Weather App</title>
   </head>
+
   <body>
     <div class="container">
-    <div class="card w-75">
-      <div class="card-body">
-      <form id="formm">
-        <div class="row">
-          <div class="col-8">
-            <input id="inputid"
-            class="typee"
-            type="text" 
-            placeholder="Type a city.."
-            >
-          </div>
-          <div class="col-4">
-            <input type="submit" class="btn btn-primary" value="Search">
-          </div>
-        </div>
-      </form>
+      <div class="card w-75">
+        <div class="card-body">
+          <form id="formm">
+            <div class="row">
+              <div class="col-8">
+                <input
+                  id="inputid"
+                  class="typee"
+                  type="text"
+                  placeholder="Type a city.."
+                />
+              </div>
+              <div class="col-4">
+                <input type="submit" class="btn btn-primary" value="Search" />
+              </div>
+            </div>
+          </form>
 
-        <h1>Sydney NSW, Australia</h1>
-        <ul class="list1">
-          <li id=todaysdate>
-            Wednesday 22:00
-          </li>
-          <li>
-            Partly Cloudy
-          </li>
-        </ul>
-      <div class="row">
-          <div class="col col1">
-            ⛅
+          <h1>Sydney NSW, Australia</h1>
+          <ul class="list1">
+            <li id="todaysdate">Wednesday 22:00</li>
+            <li>Partly Cloudy</li>
+          </ul>
+          <div class="row">
+            <div class="col col1">⛅</div>
+            <div class="col col2">
+              <ul class="list2">
+                <li>Precipitation: 0%</li>
+                <li>Humidity: 77%</li>
+                <li>Wind: 8 km/h</li>
+              </ul>
+            </div>
           </div>
-          <div class="col col2">
-            <ul class="list2">
-              <li>
-                Precipitation: 0%
-              </li>
-              <li>
-                Humidity: 77%
-              </li>
-              <li>
-                Wind: 8 km/h
-              </li>
-            </ul>
-          </div>
+          <div class="temp">19</div>
+          <span class="degree">
+            <a href="#" class="celcius">°C </a>
+            |
+            <a href="#" class="fahrenheit"> °F</a>
+          </span>
         </div>
-        <div class="temp">
-          19 
-        </div>
-        <span class="degree">
-          <a href="#" class="celcius">°C </a>
-          |
-          <a href="#" class="fahrenheit"> °F</a>
-        </span>
+      </div>
+      <script src="src/index.js"></script>
+      <a href="https://github.com/Maheletmae/Projectss"
+        >my open-source code !</a
+      >
+      by Mahelet Lisa
     </div>
-</div>
-    <script src="src/index.js"></script>
   </body>
 </html>
