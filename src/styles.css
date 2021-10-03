@@ -1,0 +1,33 @@
+body {
+  padding: 20px;
+  display: block;
+  margin: 0 auto;
+  color: grey;
+}
+.container {
+  max-width: 800px;
+}
+.typee {
+  width: 100%;
+  border-color: grey;
+}
+.card {
+  border-radius: 5%;
+}
+li {
+  list-style-type: none;
+}
+.col1 {
+  font-size: 60px;
+}
+.temp {
+  font-size: 60px;
+}
+.degree {
+  position: relative;
+  top: -70px;
+  right: -70px;
+}
+a {
+  text-decoration: none;
+}
